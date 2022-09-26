@@ -1,1 +1,69 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0;
+    background-image:url("assets/images/pngtree-white-background-texture-simple-image_555824.jpg") ;
+}
+
+:root {
+    --main-color: white;
+}
+
+.bg {
+    text-align: center;
+    padding: 10px;
+    height: 100vh;
+    background-size: cover;
+    box-sizing: border-box;
+    filter: blur(2px);
+}
+
+.bg-text {
+    color: var(--main-color);
+    font-weight: bolder;
+    border: 8px solid lightsteelblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    font-family: "Rubik Mono One";
+
+}
+
+.img {
+    display: block;
+    margin: auto;
+}
+
+.espacio {
+    height: 50px;
+}
+
+.custom-section {
+    padding-top: 50px;
+}
+
+.cb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.card-text {
+    font-family: "New Tegomin";
+}
+
+footer {
+    background-image: url(assets/images/pngtree-simple-black-solid-color-background-image_556932.jpg);
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+.home {
+    background-image: url("assets/images/robot_1.jpg");
+}
